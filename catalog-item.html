@@ -24,7 +24,7 @@
                 <a href="#">Прайс-лист</a>
               </li>
               <li>
-                <a href="#">Магазин</a>
+                <a href="#" class="visited-header">Магазин</a>
               </li>
               <li>
                 <a href="#">Контакты</a>
@@ -52,7 +52,7 @@
                 <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
               </li>
               <li>
-                <a href="#">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</a>
+                <a href="#" class="visited-nav">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</a>
               </li>
             </ul>
         </div>
@@ -61,17 +61,23 @@
         <!-- Gallery -->
           <div class="gallery">
             <figure class="gallery-content">
-              <img src="#" width="300" height="150" alt="img1" class="img-main">
-              <img src="#" width="150" height="75" alt="img2">
-              <img src="#" width="150" height="75" alt="img3">
-              <img src="#" width="150" height="75" alt="img4">
+              <div class="main-img">
+                <img src="#" width="300" height="150" alt="img1" class="img-main">
+              </div>
+              <div class="other-img">
+                <img src="#" width="150" height="75" alt="img2">
+                <img src="#" width="150" height="75" alt="img3">
+                <img src="#" width="150" height="75" alt="img4">
+              </div>
             </figure>
           </div>
           <!-- Content -->
           <div class="content-section">
             <p>ЕСТЬ В НАЛИЧИИ</p>
-            <p class="stock-number">АРТИКУЛ: DEXTER-AE</p>
-            <p><!-- text text text text text text text text text text text text text text text text text text --></p>
+            <span class="stock-number">АРТИКУЛ: DEXTER-AE</span>
+            <p>
+              travel kit – необходимый аксессуар во время любого путешествия. в аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. набор также может стать отличным подарком.
+            </p>
             <!-- BUTTON "buy" -->
             <div class="item-price">
               <p>2900 РУБ.</p>
@@ -98,7 +104,8 @@
               Барбершоп «Бородинский»<br>
               Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
               <a href="#">Как нас найти?</a><br>
-              Телефон: +7 (812) 666-02-66
+              Телефон: 
+              <a href="tel:+78126660266" class="telephone">+7(812)666-02-66</a>
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
@@ -106,6 +113,7 @@
             <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
             <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
+        <!--  тут я забыл, что нужно сделать с таргетом-->
         <section class="footer-copyright">
           <p>Разработано:</p>
             <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
